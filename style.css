@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 20px;
+}
+
+.avatar img,
+.projetos img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 10px;
+}
