@@ -1,60 +1,131 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfólio da Kaylany</title>
-  <link rel="stylesheet" href="style.css">
-  <head>
-  <img src="img/avatar.png" alt="Foto da Kaylany" width="150">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #fff8fc;
+      color: #333;
+    }
 
-  <h1>Olá, eu sou a Kaylany!</h1>
-  <p>Sou estudante, amo tecnologia e estou aprendendo a criar sites! ✨</p>
+    h1, h2 {
+      color: #8a2be2;
+    }
 
-  <h2>🍝 Receita de Lasanha</h2>
-  <h3>Ingredientes:</h3>
-  <ul>
-    <li>500g de carne moída</li>
-    <li>1 pacote de massa para lasanha</li>
-    <li>1 lata de molho de tomate</li>
-    <li>Queijo mussarela</li>
-    <li>Presunto</li>
-    <li>Orégano</li>
-  </ul>
+    .avatar {
+      width: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 20px auto;
+    }
 
-  <h3>Modo de Preparo:</h3>
-  <ol>
-    <li>Cozinhe a carne com os temperos.</li>
-    <li>Adicione o molho e deixe cozinhar por 10 minutos.</li>
-    <li>Monte as camadas com massa, carne, presunto e queijo.</li>
-    <li>Finalize com queijo e orégano.</li>
-    <li>Leve ao forno por 30 minutos.</li>
-  </ol>
-<!-- Seção de Fotos da Lasanha -->
-<section class="galeria-lasanha">
-  <h2>📷 Fotos da Lasanha</h2>
-  <div class="galeria">
-    <div class="foto">
-      <img src="img/ingredientes.png" alt="Ingredientes da lasanha" />
-      <p>Ingredientes</p>
-    </div>
-    <div class="foto">
-      <img src="img/fazendo.png" alt="Preparando a lasanha" />
-      <p>Preparando</p>
-    </div>
-    <div class="foto">
-      <img src="img/pronta.png" alt="Lasanha pronta" />
-      <p>Lasanha pronta</p>
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .fotos-lasanha {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .fotos-lasanha img {
+      width: 200px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .fotos-lasanha p {
+      text-align: center;
+      margin-top: 5px;
+      font-weight: bold;
+    }
+
+    .projetos ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .projetos li {
+      margin: 5px 0;
+    }
+
+    a {
+      color: #8a2be2;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="img/avatar.png" alt="Avatar da Kaylany" class="avatar" />
+
+  <h1>Kaylany Luana</h1>
+
+  <div class="section">
+    <h2>🍝 Receita de Lasanha</h2>
+    <h3>Ingredientes:</h3>
+    <ul>
+      <li>500g de carne moída</li>
+      <li>1 pacote de massa de lasanha</li>
+      <li>1 lata de molho de tomate</li>
+      <li>200g de presunto</li>
+      <li>200g de queijo mussarela</li>
+      <li>Orégano a gosto</li>
+      <li>Sal e temperos a gosto</li>
+    </ul>
+
+    <h3>Modo de Preparo:</h3>
+    <p>
+      Cozinhe a carne com os temperos.<br />
+      Adicione o molho e deixe cozinhar por 10 minutos.<br />
+      Monte as camadas com massa, carne, presunto e queijo.<br />
+      Finalize com queijo e orégano.<br />
+      Leve ao forno por 30 minutos.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>📸 Fotos da Lasanha</h2>
+    <div class="fotos-lasanha">
+      <div>
+        <img src="img/ingredientes.jpg" alt="Ingredientes da lasanha" />
+        <p>Ingredientes</p>
+      </div>
+      <div>
+        <img src="img/preparando.jpg" alt="Preparando a lasanha" />
+        <p>Preparando</p>
+      </div>
+      <div>
+        <img src="img/lasanha-pronta.jpg" alt="Lasanha pronta" />
+        <p>Lasanha pronta</p>
+      </div>
     </div>
   </div>
-                                       </section>
-  <h2>💻 Meus Projetos</h2>
-  <ul>
-    <li><a href="#">Projeto 1: Calculadora</a></li>
-    <li><a href="#">Projeto 2: Site de Receitas</a></li>
-    <li><a href="#">Projeto 3: Meu Portfólio</a></li>
-  </ul>
 
-  <h2>📞 Contato</h2>
-  <p>Email: kaylany@email.com</p>
+  <div class="section projetos">
+    <h2>💻 Meus Projetos</h2>
+    <ul>
+      <li>Projeto 1: Calculadora</li>
+      <li>Projeto 2: Site de Receitas</li>
+      <li>Projeto 3: Meu Portfólio</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>📬 Contato</h2>
+    <p>Email: kaylany@email.com</p>
+  </div>
+
 </body>
   </html>
