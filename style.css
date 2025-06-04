@@ -27,3 +27,31 @@ a {
   color: #6a1b9a;
   text-decoration: none;
   }
+.galeria-lasanha {
+  text-align: center;
+  padding: 2rem;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.foto {
+  width: 200px;
+}
+
+.foto img {
+  width: 100%;
+  border: 2px solid #a855f7;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.foto p {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #6b21a8;
+}
