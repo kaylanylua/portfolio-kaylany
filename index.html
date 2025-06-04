@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Portfólio da Kaylany</title>
   <style>
     body {
@@ -26,17 +26,18 @@
     section {
       margin-bottom: 40px;
     }
-    .foto {
-      text-align: center;
-      margin-bottom: 20px;
+    ul {
+      padding-left: 20px;
     }
     .foto img {
       width: 200px;
-      border-radius: 10px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 12px;
       box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     }
     .foto p {
-      margin-top: 5px;
+      text-align: center;
       font-weight: bold;
     }
   </style>
@@ -73,17 +74,25 @@
   <section>
     <h2 style="color: #9b4dca;">📸 Fotos da Lasanha</h2>
 
-    <div class="foto">
-      <img src="img/projeto-1 (1).png" alt="Ingredientes da lasanha">
-      <p>Ingredientes</p>
+    <div style="
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      justify-items: center;
+      margin-bottom: 20px;
+    ">
+      <div class="foto">
+        <img src="img/projeto-1 (1).png" alt="Ingredientes da lasanha">
+        <p>Ingredientes</p>
+      </div>
+
+      <div class="foto">
+        <img src="img/projeto-2.png" alt="Preparando a lasanha">
+        <p>Preparando</p>
+      </div>
     </div>
 
-    <div class="foto">
-      <img src="img/projeto-2.png" alt="Preparando a lasanha">
-      <p>Preparando</p>
-    </div>
-
-    <div class="foto">
+    <div style="text-align: center;" class="foto">
       <img src="img/projeto-3 (1).png" alt="Lasanha pronta">
       <p>Lasanha pronta</p>
     </div>
@@ -104,4 +113,4 @@
   </section>
 
 </body>
-                                        </html>
+  </html>
