@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
@@ -40,6 +40,17 @@
       text-align: center;
       font-weight: bold;
     }
+    .grid-cima {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      justify-items: center;
+      margin-bottom: 20px;
+    }
+    .centro {
+      display: flex;
+      justify-content: center;
+    }
   </style>
 </head>
 <body>
@@ -74,27 +85,23 @@
   <section>
     <h2 style="color: #9b4dca;">📸 Fotos da Lasanha</h2>
 
-    <div style="
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-      justify-items: center;
-      margin-bottom: 20px;
-    ">
+    <div class="grid-cima">
       <div class="foto">
-        <img src="img/projeto-1 (1).png" alt="Ingredientes da lasanha">
-        <p>Ingredientes</p>
+        <img src="img/projeto-1 (1).png" alt="Lasanha pronta">
+        <p>Lasanha pronta</p>
       </div>
 
       <div class="foto">
-        <img src="img/projeto-2.png" alt="Preparando a lasanha">
-        <p>Preparando</p>
+        <img src="img/projeto-2.png" alt="Ingredientes">
+        <p>Ingredientes</p>
       </div>
     </div>
 
-    <div style="text-align: center;" class="foto">
-      <img src="img/projeto-3 (1).png" alt="Lasanha pronta">
-      <p>Lasanha pronta</p>
+    <div class="centro">
+      <div class="foto">
+        <img src="img/projeto-3 (1).png" alt="Preparando">
+        <p>Preparando</p>
+      </div>
     </div>
   </section>
 
@@ -113,4 +120,4 @@
   </section>
 
 </body>
-  </html>
+                                                      </html>
